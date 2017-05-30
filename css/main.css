@@ -47,4 +47,20 @@ h4 {
 }
 
 /**/
+.topic_img_right {
+    float:right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
 
+.topic_img_left {
+    float:left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.topic_footer {
+    background-color: gainsboro;
+    height: 60px;
+    text-align: center;
+}
