@@ -8,10 +8,11 @@ body {
 
 h1 {
     font-weight: 200;
+    color: #0057b8;
 }
 h2 {
-    font-weight: 300;
-    color: gainsboro;
+    font-weight: 200;
+    color: #0057b8;
 }
 h3 {
     font-weight: 300;
@@ -19,6 +20,7 @@ h3 {
 }
 h4 {
     font-weight: 300;
+    color:  #e4002b;
 }
 
 /* page header */
@@ -73,4 +75,47 @@ h4 {
 /**/
 .page_footer {
     padding-bottom: 30px;
+}
+.about_us {
+    float:right;
+}
+.about_us_link {
+    color: #0057b8;
+}
+
+/**/
+.topic_row {
+    margin-bottom: 10px;
+}
+
+/**/
+.action {
+    margin-top: 10px;
+}
+.action_hr {
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+/*butons*/
+.btn_red {
+    background-color:#e4002b;
+    color:white;
+}
+.btn_red:hover,
+.btn_red:focus,
+.btn_red:active {
+    background-color: #a80000;
+    color:white;
+}
+
+.btn_blue {
+    background-color:#0057b8;
+    color:white;
+}
+.btn_blue:hover,
+.btn_blue:focus,
+.btn_blue:active {
+    background-color: #002F90;
+    color:white;
 }
