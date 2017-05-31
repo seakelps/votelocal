@@ -5,7 +5,6 @@ github_username:  seakelps
 
 # Build settings
 markdown: kramdown
-theme: minima
 gems:
   - jekyll-feed
 exclude:
