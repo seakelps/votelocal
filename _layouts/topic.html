@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta charset="utf-8">
+
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="../css/main.css">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <title>Vote {{ page.topic }}</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <header class="page-header">
+                <div class="row">
+                    <div class="col-md-12 text-uppercase">
+                        <h1 class="header_title">{{ page.topic }}</h1>
+                        <h4 class="header_subtitle">& Cambridge Elections</h4>
+                    </div>
+                </div>
+            </header>
+
+            <section class="topic_section" style="text-align:justify;">
+                <div class="container">
+                    {{ content }}
+
+                    <section class="action">
+                        <div class="row action_title">
+                            <div class="col-md-12">
+                                <h2>Now What?</h2>
+                                <hr>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h3>Voting</h3>
+                                <p>Unsure if you're registered to vote? Know definitely that you're not? Massachusetts doesn't have same-day registration yet, so be sure to check! </p>
+                                <p><a class="btn btn-default" href="https://www.sec.state.ma.us/ovr/" role="button">Register Now »</a></p>
+                            </div>
+                            <div class="col-md-4">
+                                <h3>Candidates</h3>
+                                <p>Don't know who's in office or who you want to vote for? A sister site lets you explore, rank, etc. current candidates for city council and check out the voting record of incumbents. </p>
+                                <p><a class="btn btn-default" href="#" role="button">Explore Candidates »</a></p>
+                            </div>
+                            <div class="col-md-4">
+                                <h3>Issues</h3>
+                                <p>Unsure what other issues your local elected officials impact? Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. </p>
+                                <p><a class="btn btn-default" href="../index.html" role="button">Explore Issues »</a></p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>
