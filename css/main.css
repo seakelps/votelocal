@@ -47,6 +47,9 @@ h4 {
 .reason_thumbnail {
     margin-bottom: 1px;
 }
+.img_reason:hover {
+    border-color: blue;
+}
 
 /**/
 .topic_img_right {
