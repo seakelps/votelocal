@@ -51,25 +51,6 @@ h4 {
     border-color: blue;
 }
 
-/**/
-.topic_img_right {
-    float:right;
-    margin-left: 10px;
-    margin-bottom: 10px;
-}
-
-.topic_img_left {
-    float:left;
-    margin-right: 20px;
-    margin-bottom: 20px;
-}
-
-.topic_footer {
-    background-color: gainsboro;
-    height: 60px;
-    text-align: center;
-}
-
 /* jumbotron tweaking */
 #last_jumbo_item {
     margin-bottom: 0;
@@ -100,7 +81,7 @@ h4 {
     margin-top: 5px;
 }
 
-/*butons*/
+/* buttons */
 .btn_red {
     background-color:#e4002b;
     color:white;
