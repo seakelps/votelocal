@@ -5,6 +5,7 @@
 body {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
+    font-size: 15px;
 }
 
 p {
@@ -30,6 +31,11 @@ h3 {
 h4 {
     font-weight: 300;
     color:  #e4002b;
+}
+h5 {
+    margin-top: 30px;
+    font-size: 15px;
+    color: #0057b8;
 }
 
 /* page header */
@@ -111,4 +117,11 @@ h4 {
 .btn_blue:active {
     background-color: #002F90;
     color:white;
+}
+
+/* within a topic page */
+.topic_page_photo {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
 }
