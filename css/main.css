@@ -49,6 +49,9 @@ h5 {
     text-align: center;
     margin-top: 5px;
 }
+.header_link:hover {
+    text-decoration: none;
+}
 
 /* reasons */
 .reasons_to_vote_content {
@@ -123,5 +126,12 @@ h5 {
 .topic_page_photo {
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 30px;
+    margin-top: 15px;
+    margin-bottom: 45px;
+}
+
+@media (max-width: 768px) {
+    .action_button {
+        text-align: center;
+    }
 }
