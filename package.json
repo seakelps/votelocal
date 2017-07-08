@@ -1,0 +1,30 @@
+{
+  "name": "vote",
+  "version": "1.0.0",
+  "description": "A small website highlighting local issues to give people reasons to vote in the next Cambridge municipal election.",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.6.0",
+    "gulp-replace": "^0.6.1",
+    "read-file": "^0.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seakelps/votelocal.git"
+  },
+  "keywords": [
+    "cambridge",
+    "votelocal"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seakelps/votelocal/issues"
+  },
+  "homepage": "https://github.com/seakelps/votelocal#readme"
+}

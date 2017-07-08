@@ -18,7 +18,7 @@ To follow those steps:
 
 Then, from the main directory of this project:
 
-- run: ```npm install gulp gulp-clean-css gulp-replace read-file```
+- run: ```npm install``` (or ```npm install gulp gulp-clean-css gulp-replace read-file```)
 - run: ```gulp```
  
 
