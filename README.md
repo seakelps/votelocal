@@ -26,8 +26,8 @@ Then, from the main directory of this project:
 
 Since the site uses interal paths relative to the root, for links to work locally, you'll either have to put everything in your computer's root or run a simple server, such as:
 
-- python -m SimpleHTTPServer 8080
-- 127.0.0.1:8080/
+- ```python -m SimpleHTTPServer 8080```
+- ```127.0.0.1:8080/```
 
 
 ## how to modify
