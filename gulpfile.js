@@ -11,6 +11,7 @@
 var gulp = require('gulp'),
     gulp_replace = require('gulp-replace'),
     gulp_clean_css = require('gulp-clean-css');
+    // gulp_image_op = require('gulp-image-optimization');
 
 var read = require('read-file');
 
@@ -26,30 +27,38 @@ gulp.task('clean_css', function() {
  * header and footer "templates"
  */
 
-// add header, footer to all html pages in 'src' (index, vote)
+// add header, "what next?" section, footer to all html pages in 'src' (index, vote)
 gulp.task('header_footer', function() {
     var footer_anchor = '<!-- Footer -->';
     var footer_text = read.sync('src/template/footer.html');
+
+    var next_anchor = '<!-- Next -->';
+    var next_text = read.sync('src/template/next.html');
 
     var header_anchor = '<!-- Header -->';
     var header_text = read.sync('src/template/header.html');
 
     return gulp.src(['src/*.html'])
         .pipe(gulp_replace(header_anchor, header_anchor + header_text))
+        .pipe(gulp_replace(next_anchor, next_anchor + next_text))
         .pipe(gulp_replace(footer_anchor, footer_anchor + footer_text))
         .pipe(gulp.dest(''));
 });
 
-// add the footer to all topic pages
+// add the header, "what next?" section, footer to all topic pages
 gulp.task('header_footer_topic', function() {
     var header_anchor = '<!-- Header -->';
     var header_text = read.sync('src/template/header.html');
+
+    var next_anchor = '<!-- Next -->';
+    var next_text = read.sync('src/template/next.html');
 
     var footer_anchor = '<!-- Footer -->';
     var footer_text = read.sync('src/template/footer.html');
 
     return gulp.src(['src/topic/*.html'])
         .pipe(gulp_replace(header_anchor, header_anchor + header_text))
+        .pipe(gulp_replace(next_anchor, next_anchor + next_text))
         .pipe(gulp_replace(footer_anchor, footer_anchor + footer_text))
         .pipe(gulp.dest('topic/'));
 });
