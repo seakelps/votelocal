@@ -18,8 +18,9 @@ To follow those steps:
 
 Then, from the main directory of this project:
 
-- run: ```npm install``` (or ```npm install gulp gulp-clean-css gulp-replace read-file```)
-- run: ```gulp```
+- run: ```npm install```
+- run: ```npm run gulp```
+- for continuous updates: ```npm run gulp-watch```
  
 
 ## how to run
