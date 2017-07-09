@@ -29,6 +29,8 @@ Since the site uses interal paths relative to the root, for links to work locall
 - ```python -m SimpleHTTPServer 8080```
 - ```127.0.0.1:8080/```
 
+[alternate one-liners](https://gist.github.com/willurd/5720255)
+
 
 ## how to modify
 
