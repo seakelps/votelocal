@@ -7,12 +7,14 @@
     "gulp": "^3.9.1",
     "gulp-clean-css": "^3.6.0",
     "gulp-replace": "^0.6.1",
+    "node-static": "^0.7.9",
     "read-file": "^0.2.0"
   },
   "devDependencies": {},
   "scripts": {
     "gulp": "gulp",
-    "gulp-watch": "gulp watch"
+    "gulp-watch": "gulp watch",
+    "serve": "static"
   },
   "repository": {
     "type": "git",
