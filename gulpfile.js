@@ -1,7 +1,7 @@
 /*
  * gulp build file
  *
- * to use: 
+ * to use:
  *    `npm install gulp gulp-clean-css gulp-replace read-file`
  *    `gulp`
  *
@@ -55,3 +55,8 @@ gulp.task('header_footer_topic', function() {
 });
 
 gulp.task('default', ['clean_css', 'header_footer', 'header_footer_topic']);
+gulp.task('watch', function() {
+  gulp.watch("src/*.html", ['header_footer'])
+  gulp.watch("src/topic/*.html", ['header_footer_topic'])
+  gulp.watch("src/css/*.css", ['clean_css'])
+});
