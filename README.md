@@ -10,7 +10,7 @@ A small website highlighting local issues to give people reasons to vote in the 
 
 ## how to build
 
-This site is static, but the static content is generated using npm. We've done this for serveral reasons: so snippits of html can be included on all pages; minifying css; image manipulation.
+This site is static, but the static content is generated using npm. We've done this for serveral reasons: so snippets of html can be included on all pages; minifying css; image manipulation.
 
 To follow those steps:
 
