@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta charset="utf-8">
+
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700' rel='stylesheet' type='text/css'>
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="../css/main.css">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <!-- font awesome -->
+        <script src="https://use.fontawesome.com/ed86e30755.js"></script>
+
+        <!-- TODO: UPDATE THE TITLE -->
+        <title>Vote Environment</title>
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <!-- Header -->
+            <header class="page-header">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h1><i class="fa fa-check-square-o" aria-hidden="true"></i></h1>
+                    </div>
+                    <div class="col-md-9 text-uppercase">
+                        <a class="header_link" href="/index.html">
+                            <h1 class="header_title">Cambridge Elections</h1>
+                            <h4 class="header_subtitle">impact <b>YOUR</b> life</h4>
+                        </a>
+                    </div>
+                </div>
+            </header>
+
+            <section class="topic_section">
+                <div class="row topic_row">
+                    <div class="col-md-offset-1 col-md-10 col-md-offset-1">                   
+
+                        <h2>$15 an Hour?</h2>
+
+                        <p>Some Cambridge city councilors have discussed implementing a higher minimum wage in the city, but others question the effectiveness and legality of that proposal.</p>
+
+                        <h5>Currently</h5>
+
+                        <p>
+                        <ul>
+                        
+                        <li>In June 2014, the city council passed an ordinance asking the city manager to look into the feasibility of increasing the minimum wage. (<a href="http://cambridge.wickedlocal.com/news/20160622/cambridge-task-force-formed-for-15-raising-minimum-wage-called-moral-move">Wicked Local Cambridge</a>)</li>
+                        <li>Two years later, the council unanimously voted to establish a task force to explore the impacts of such a raise and recommend how to implement it without disrupting local businesses.(<a href="http://cambridge.wickedlocal.com/news/20160622/cambridge-task-force-formed-for-15-raising-minimum-wage-called-moral-move">Wicked Local Cambridge</a>)</li>
+                        <li>Seattle passed a $15/hour minimum wage in 2014, which some say has reduced working hours and overall pay for vulnerable workers while others find that it increases wages. (a href="https://www.forbes.com/sites/ronaldholden/2017/06/26/dueling-studies-come-to-opposite-conclusions-regarding-seattles-15-minimum-wage/#3f5a9bd393da">Forbes</a>, <a href="https://www.nytimes.com/2017/06/26/business/economy/seattle-minimum-wage.html">NY Times</a>)</li>
+                        <li>There are concerns that the city council doesn’t have the legal authority to pass an increase to minimum wage that raises it above the state minimum, which stands at $11/hour as of January 2017. (a href="https://www.bostonglobe.com/business/2015/12/02/why-aren-mass-cities-enacting-minimum-wage/3yhfXPPpEqUghnIYBvkIoK/story.html">Globe</a>)</li>
+                        
+                        </ul>
+                        
+                        </p>
+
+                        <h5>In the Future</h5>
+
+                        <p>
+                        
+                        <ul>
+                        
+                        <li>Is $15 minimum wage something Cambridge should move toward?</li>
+                        <li>What impact would wage increases have on individuals? On businesses?</li>
+                        
+                        </ul>
+                        
+                        </p>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="action_section">
+                <div class="row action_title">
+                    <div class="col-md-offset-1 col-md-10 col-md-offset-1">
+
+                        <!-- Next -->
+                        <h2>Now What?</h2>
+                        <hr class="action_hr">
+
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <h3>Voting</h3>
+                                <p>Unsure if you're registered to vote? Know definitely that you're not? Massachusetts doesn't have same-day registration yet, so check ASAP! </p>
+                                <p class="action_button"><a class="btn btn_red" href="https://www.sec.state.ma.us/ovr/" role="button">Register Now »</a></p>
+                            </div>
+                            <div class="col-sm-4">
+                                <h3>Candidates</h3>
+                                <p>Don't know who you want to vote for? A sister site lets you explore the records and finances of current candidates for city council - and more. </p>
+                                <p class="action_button"><a class="btn btn-default" href="http://www.cambridgecouncilcandidates.com/candidates/" role="button">Explore Candidates »</a></p>
+                            </div>
+                            <div class="col-sm-4">
+                                <h3>Issues</h3>
+                                <p>Want to see other local issues? Head back to the main page to check out what else is happening - some of the topics might surprise you! </p>
+                                <p class="action_button"><a class="btn btn_blue" href="../index.html" role="button">Explore Issues »</a></p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+
+            <hr>
+            <!-- Footer -->
+            <footer class="page_footer">
+                <span>© 2017.</span>
+                <span class="about_us"><a class="about_us_link" href="/vote.html#about_us">About us</a></span>
+            </footer>
+
+        </div>
+
+    </body>
+</html>
